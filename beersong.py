@@ -6,7 +6,7 @@ for beer_num in range(99, 0, -1):
     print("Take one down.")
     print("Pass it around.")
     if beer_num == 1:
-        print("No morebottles of beer on the wall.")
+        print("No more bottles of beer on the wall.")
     else:
         new_num = beer_num - 1
         if new_num == 1:
